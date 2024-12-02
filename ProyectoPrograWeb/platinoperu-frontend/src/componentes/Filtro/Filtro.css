@@ -1,0 +1,59 @@
+.filtro {
+    position: relative;
+    
+  }
+  .filtro-orden {
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    
+    
+    gap: 20px;
+  }
+  
+  .filtro button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: auto;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    display: none; 
+  }
+  
+  .filtro:hover .sidebar {
+    display: block; 
+  }
+  
+  .sidebar label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .sidebar input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .sidebar p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
